@@ -10,15 +10,5 @@ yesBtn.addEventListener("click", () => {
   yesBtn.remove();
   noBtn.remove();
 
-  header.textContent = "YAY";
-});
-
-noBtn.addEventListener("mouseover", (e) => {
-  img.src = "images/angry-cat.gif";
-  header.textContent = "wyd????";
-});
-
-noBtn.addEventListener("mouseout", () => {
-  img.src = "images/excited.gif";
-  header.textContent = "Thats what I thought, now will you be my Valentine?";
+  header.innerHTML = "YAY! ❤️<br>Happy Valentines Day!";
 });
