@@ -59,6 +59,7 @@ button {
   font-size: 1.4rem;
   min-width: 80px;
   width: auto;
+  color: black;
 }
 
 .yes {
